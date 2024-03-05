@@ -1,0 +1,28 @@
+.user-profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-profile button {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.user-profile input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.user-profile p {
+    margin-bottom: 10px;
+}
