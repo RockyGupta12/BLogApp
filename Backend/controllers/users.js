@@ -4,7 +4,7 @@
 //jsonwebtoken: A library for generating and verifying JSON Web Tokens (JWTs).
 const userRouter = require("express").Router();
 const User = require("../models/user");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const { tokenExtractor } = require("../utils/middleware");
 
