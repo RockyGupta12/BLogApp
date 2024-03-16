@@ -3,7 +3,7 @@ import BlogForm from '../pages/blogs';
 const HomeBlog = () => {
     const homeStyle = {
         float: 'left',
-        width: '70%',
+        width: '100%',
         backgroundColor: '#fff',
         padding: '20px',
         margin: '20px 0',

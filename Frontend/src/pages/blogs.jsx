@@ -244,7 +244,7 @@ const BlogForm = () => {
               <img
                 src={`http://localhost:8001/${blog.image}`}
                 alt="Blog"
-                style={{ width: "300px", height: "200px" }} // Adjust width as needed
+                style={{ width: "600px", height: "300px" }} // Adjust width as needed
               />
             )}{" "}
             <br/>

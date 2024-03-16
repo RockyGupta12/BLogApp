@@ -45,7 +45,7 @@ const App = () => {
       <div>
         {loginUser ? (
           <>
-             <Link style={{ padding: 10 }} to="/homeblog">Home</Link>
+             <Link style={{ padding: 10}} to="/homeblog">Home</Link>
             <em>
               {loginUser.username} logged in{" "}
               <button onClick={handleLogout}>Log out</button>

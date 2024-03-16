@@ -3,11 +3,12 @@ import React from 'react';
 const Home = () => {
   const homeStyle = {
     float: 'left',
-    width: '70%',
+    width: '100%', // Increase the width for a bigger appearance
     backgroundColor: '#fff',
-    padding: '20px',
-    margin: '20px 0',
+    padding: '30px', // Increase padding for spacing
+    margin: '20px auto', // Center the container horizontally
     boxSizing: 'border-box',
+    fontSize: '18px', // Increase font size for text
   };
 
   const imageStyle = {
@@ -33,4 +34,4 @@ const Home = () => {
   );
 };
 
-export default Home;0
+export default Home;
